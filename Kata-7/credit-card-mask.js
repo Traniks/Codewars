@@ -5,4 +5,9 @@
 
 ///////////// v1 /////////////
 
-console.log();
+function maskify(cc) {
+	let str = cc.replace(/./g, '#')
+	return str.slice(4) + cc.slice(-4)
+}
+
+console.log(maskify("21321312312"));
