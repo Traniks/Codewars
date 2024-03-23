@@ -6,8 +6,8 @@
 ///////////// v1 /////////////
 
 function maskify(cc) {
-	let str = cc.replace(/./g, '#')
-	return str.slice(4) + cc.slice(-4)
+	let str = cc.replace(/./g, '#');
+	return str.slice(4) + cc.slice(-4);
 }
 
 console.log(maskify("21321312312"));

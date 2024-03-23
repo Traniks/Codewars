@@ -9,4 +9,4 @@ function getCount(str) {
 	return (str.match(/[aeiou]/g) || []).length
 }
 
-console.log(getCount("Vowels Count Tests"))
+console.log(getCount("Vowels Count Tests"));

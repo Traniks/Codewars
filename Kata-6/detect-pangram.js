@@ -6,11 +6,11 @@
 ///////////// v1 /////////////
 
 function isPangram(string) {
-	const allSymbols = 'abcdefghijklmnopqrstuvwxyz'.split('')
+	const allSymbols = 'abcdefghijklmnopqrstuvwxyz'.split('');
 
-	string = string.toLowerCase()
+	string = string.toLowerCase();
 	return allSymbols.every(x => string.includes(x))
 }
 
-console.log(isPangram('The quick brown fox jumps over the lazy dog.'))
-console.log(isPangram('This is not a pangram.'))
+console.log(isPangram('The quick brown fox jumps over the lazy dog.'));
+console.log(isPangram('This is not a pangram.'));
